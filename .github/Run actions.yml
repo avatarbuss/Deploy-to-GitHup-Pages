@@ -1,0 +1,21 @@
+ with:
+    emit_telemetry: false
+    token: ***
+    timeout: 600000
+    error_count: 10
+    reporting_interval: 5000
+    artifact_name: github-pages
+    preview: false
+Actor: github-pages[bot]
+Action ID: 3327889493
+Artifact URL: https://pipelines.actions.githubusercontent.com/97TGHG60asqh4E8IhLXBSsSzmwNIUJb7Hog0oeeBEdMOQX7z4U/_apis/pipelines/workflows/3327889493/artifacts?api-version=6.0-preview
+{"count":1,"value":[{"containerId":465919,"size":92160,"signedContent":null,"fileContainerResourceUrl":"https://pipelines.actions.githubusercontent.com/97TGHG60asqh4E8IhLXBSsSzmwNIUJb7Hog0oeeBEdMOQX7z4U/_apis/resources/Containers/465919","type":"actions_storage","name":"github-pages","url":"https://pipelines.actions.githubusercontent.com/97TGHG60asqh4E8IhLXBSsSzmwNIUJb7Hog0oeeBEdMOQX7z4U/_apis/pipelines/1/runs/2/artifacts?artifactName=github-pages","expiresOn":"2022-10-27T09:41:03.6956221Z","items":null}]}
+Creating deployment with payload:
+{
+	"artifact_url": "https://pipelines.actions.githubusercontent.com/97TGHG60asqh4E8IhLXBSsSzmwNIUJb7Hog0oeeBEdMOQX7z4U/_apis/pipelines/1/runs/2/artifacts?artifactName=github-pages&%24expand=SignedContent",
+	"pages_build_version": "047ec2c1710706b55a3d319b1881f63784cce123",
+	"oidc_token": "***"
+}
+Created deployment for 047ec2c1710706b55a3d319b1881f63784cce123
+{"page_url":"https://avatarbuss.github.io/docs/","status_url":"https://api.github.com/repos/avatarbuss/docs/pages/deployment/status/047ec2c1710706b55a3d319b1881f63784cce123","preview_url":""}
+Reported success!
